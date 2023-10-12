@@ -5,80 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS de Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <meta name-="description" content="Bienvenidos a nuestro gimnasio">
     <title>PreEntrega</title>
 </head>
 
 <body>
-    <!--Inicio del menu-->
-    <header>
-        
-        <div class="container"></div>
-        <a href="index.html">
-            <img src="assets/img/logo.jpg" alt="Logo Gym">
-        </a> 
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html"
-                    class="enlaces">Inicio</a>
-                </li>
-
-                <li>
-                    <a href="pages/nosotros.html"
-                    class="enlaces">Nosotros</a>
-                </li>
-
-                <li>
-                    <a href="pages/actividades.html"
-                    class="enlaces">Actividades</a>
-                </li>
-
-                <li>
-                    <a href="pages/ubicacion.html"
-                    class="enlaces">Ubicacion</a>
-                </li>
-
-                <li>
-                    <a href="pages/contacto.html"
-                    class="enlaces">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    
-    
-    </header>
-    
-    
-    <!-- Banner inicial -->
+  <!-- Banner inicial -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12"> 
     <div class="banner"></div>
     
     
     <main>
-        <h1 class="my-4">Rendirse no es una opcion</h1>
+        <h1 class="my-4 text-center">Rendirse no es una opcion</h1>
         
         <div data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500" class="contenedor-padre">
             <div class="card">
                 <img src="assets/img/principal.jpg" alt="imagen-1"></div>
-                <p class="parrafo-white ">Nuestro gimnasio esta programado para un entrenamiento de fuerza, totalmente personalizado,en el cual nos enfocamos a exitosos resultados,es un lugar pensado para que entrenen todos, con programas para todas las edades y orientados al objetivo que querés alcanzar.
-                olvidate de las rutinas aburridas, vení a entrenar con amigos y sumá más salud a tus días.</p>
+                <p class="parrafo-white ">Este gimnasio te presenta una experiencia única pensada especialmente para vos. Contamos con Entrenamiento Personalizado centrado en tus metas y destinado a mejorar tu calidad de vida. Con Salones Equipados con las últimas máquinas y elementos, un mejor rendimiento en tu entrenamiento. Los mejores Entrenadores y Profesionales para acompañarte con tu objetivo. Y la buena onda de siempre en un Ambiente Relajado y Amigable</p>
         </div>
     </main>
         
     <section>
-        <h2 class="my-4">Nuestras Actividades</h2>
+        <h2 class="my-4 text-center">Nuestras Actividades</h2>
                 <div data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500" class="contenedor">
                 <img src="assets/img/icono-cardio.png" alt="cardio">
                 <div class="contenedor-textos">
                     <h3>Actividades cardio</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quia similique mollitia consequuntur, necessitatibus maxime tenetur? Tempore saepe laborum dolore, accusantium dolorem est magni asperiores tempora, nemo provident, aliquid totam?</p>
+                    <p>Desarrollamos resistencia gral aeróbica, coordinación y tonificación muscular mediante un
+                        entrenamiento intenso combinando movimientos del boxeo y movimientos de las artes
+                        marciales al ritmo de la mejor música.</p>
                 </div>
             </div>
         </div>
@@ -87,7 +51,9 @@
             <img src="assets/img/icono-fullbody.png" alt="fullbody" class="imagen-fullbody">
             <div class="contenedor-textos">
                 <h4>Actividades Fullbody</h4>
-                <p>Trabaja con tu debilidad, hasta que se convierta en tu fortaleza.Mantente enfocado en tu objetivo y has tu mayor esfuerzo para lograrlo</p>
+                <p>Entrenamiento muscular general de alta intensidad mediante metodologías del cross
+                    training y métodos de localización. Alcanzando una alta quema calórica y también
+                    desarrollando progresivamente la fuerza muscular, flexibilidad, velocidad y movilidad.</p>
             </div>
         </div>
     
@@ -97,7 +63,7 @@
             <img src="assets/img/icono-musculacion.png" alt="musculacion">
             <div class="contenedor-textos">
                 <h3>Actvidades de Musculacion</h3>
-                <p>Hacer ejercicio de musculacion no solo transforma tu cuerpo, tambien tu mente, tu actitud y tu estado de animo.</p>
+                <p>Es un sistema de entrenamiento que se basa en una variedad de ejercicios realizados en alta intensidad, estos son derivados del levantamiento olimpico de pesas, gimnasia deportiva y entrenamientos. Su finalidad es desarrollar las diversas capacidades corporales como: fuerza, resistencia, flexibilidad y capacidades cardiovasculares.</p>
             </div>
         </div>
     </section>
@@ -121,6 +87,6 @@
 <script> AOS.init();</script>
 
     <!-- JS de Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>

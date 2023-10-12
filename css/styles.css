@@ -4,12 +4,11 @@
 }
 
 body {
-  background-color: #631b5d;
-  color: #f5f5f5;
+  background-color: #c5c0c0;
 }
 
 header {
-  background-color: #866083;
+  background-color: #232323;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -19,7 +18,7 @@ header {
 }
 
 header img {
-  width: 120px;
+  width: 80px;
 }
 
 ul {
@@ -50,10 +49,11 @@ img {
   background-image: url(../assets/img/entrenamiento.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: fixed;
   height: 480px;
   width: 100%;
 }
+
 
 main {
   display: flex;
@@ -70,22 +70,21 @@ h1, h2, h3, h4 {
 }
 
 .parrafo-white {
-  background-color: #631b5d;
   color: #f5f5f5;
   padding: 2rem;
   text-align: center;
   font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
-  margin: 2rem auto; /* Agrega un margen superior e inferior para separarlo del borde y centra horizontalmente */
-  max-width: 800px; /* Establece un ancho máximo para el párrafo */
-  box-sizing: border-box; /* Incluye el padding en el ancho máximo */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 2rem auto; 
+  max-width: 800px; 
+  box-sizing: border-box; 
 }
 
 @media (max-width: 480px) {
   .parrafo-white {
-    font-size: 1.5rem; /* Ajusta el tamaño de la fuente para dispositivos móviles */
-    padding: 1.5rem; /* Ajusta el padding para dispositivos móviles */
-    margin: 1rem auto; /* Ajusta el margen para dispositivos móviles */
+    font-size: 1.5rem; 
+    padding: 1.5rem; 
+    margin: 1rem auto; 
   }
 }
 
@@ -93,17 +92,14 @@ h1, h2, h3, h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 2rem;
 }
 
 .card {
-  width: 820px;
-  color: #641e04;
-  padding: 30px 20px;
+  width: 85%;
+  color: #232323;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 0 auto;
 }
 
 .card img {
@@ -183,18 +179,42 @@ footer {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px #232323;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .whatsapp:hover {
   transform: scale(1.1);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px #232323;
 }
 
-.contacto.css {
-  color: #f5f5f5;
+.navbar-brand img {
+  width: 120px;
+}
+
+
+@media (max-width: 991px) {
+  .navbar-nav {
+      flex-direction: column; 
+      text-align: center; 
+  }
+
+  .navbar-nav .nav-item {
+      margin-bottom: 10px; 
+  }
+
+    .navbar-toggler {
+      display: block; /* Mostrar el botón del menú en dispositivos móviles */
+  }
+
+  .collapse.navbar-collapse {
+      display: none; /* Oculta la barra de navegación en dispositivos móviles */
+  }
+
+  .navbar-collapse.show {
+      display: block; /* Muestra la barra de navegación en dispositivos móviles cuando se abre el menú desplegable */
+  }
 }
 
 /* Estilos para el formulario */
@@ -356,3 +376,4 @@ footer {
     font-size: 20px;
   }
 }
+
