@@ -71,7 +71,10 @@ h1, h2, h3 {
   margin: 20px 0;
 }
 h4 {
-  color: #333;
+  color: #f5f5f5;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
 }
 
 .parrafo-white {
@@ -134,7 +137,8 @@ h4 {
 
 .contenedor.reverse {
   flex-direction: row-reverse;
-  background-color: #48cf3c;
+  color: #f5f5f5;
+  background-color: #56a34f;
   margin:15px;
   padding: 50px;
   font-family:cursive;
@@ -284,9 +288,56 @@ nav ul li {
 }
 }
 
+  .contacto.css {
+  header {
+    background-color: #63676e;
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+header a {
+    text-decoration: none; 
+    color: #f5f5f5; 
+}
+
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex;
+    gap: 20px; 
+}
+
+
+nav ul li {
+    display: inline;
+}
+
+
+.enlaces {
+    text-decoration: none; 
+    color: #f5f5f5; 
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+}
+
+
 /* Estilos para el formulario */
 
 .form {
+  color: #f5f5f5;
   margin: 30px auto;
   max-width: 600px;
 }
@@ -335,11 +386,12 @@ nav ul li {
 .btn-secondary {
   background-color: #cf3c6d;
   color:#f5f5f5;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .btn:hover {
   transform: translateY(-2px);
+  background-color: #cf3c6d;
 }
 
 
@@ -400,7 +452,7 @@ navbar {
   text-align: center;
   background-color: #2e2e3b;
   border-radius: 10px;
-  box-shadow: 0px 2px 5px #cf3c6d;
+  box-shadow: 0px 20px 50px #cf3c6d;
   overflow: hidden;
 }
 
@@ -428,7 +480,7 @@ navbar {
 
 
   h1, h2, h3 {
-    font-size: 1,1rem;
+    font-size: 1.5rem;
     font-family: cursive;
   }
 }
@@ -436,7 +488,7 @@ navbar {
 @media (min-width: 768px) and (max-width: 1023px) {
 
   h1, h2, h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -444,7 +496,7 @@ navbar {
 @media(min-width: 1024px) {
 
   h1, h2, h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 

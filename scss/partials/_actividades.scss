@@ -1,0 +1,133 @@
+/* Paleta de colores */
+/* Paleta de colores */
+$color-primario: #63676e;
+$color-secundario: #f5f5f5;
+$color-terciario: #333;
+
+/* Tamaño de fuentes e iconos */
+$fuente-grande: 40px;
+$fuente-media: 20px;
+$icono-chico: 40px;
+$icono-grande: 60px;
+
+/* Resoluciones de pantallas */
+$tablet: 900px;
+$movie: 660px;
+
+/* Separaciones (margenes y paddings) */
+$espacio-Xchico: 10px;
+$espacio-chico: 20px;
+$espacio-medio: 40px;
+$espacio-grande: 60px;
+
+/* Fuente */
+$Fuente-principal: 'Montserrat', sans-serif;
+
+/* Mixin */
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actividades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: $espacio-medio;
+    padding: $espacio-medio;
+}
+
+.contenedor-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: $color-terciario;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px $color-primario ;
+    overflow: hidden;
+
+img {
+    max-width: 100%;
+}
+}
+
+@media only screen and (min-width: $tablet) {
+.actividades {
+    grid-template-columns: 1fr;
+}
+
+.contenedor-card img {
+    max-width: 50%;
+}
+}
+
+@media (min-width: $tablet) {
+.contenedor-padre {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: $espacio-medio;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img {
+    width: 100%;
+    max-width: 200px;
+    }
+}
+
+.contenedor-textos {
+    text-align: center;
+}
+}
+
+@media (min-width: $tablet) and (max-width: $desktopXG) {
+.contenedor-padre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: $espacio-medio;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img {
+    width: 100%;
+    max-width: 250px;
+    }
+}
+
+.contenedor-textos {
+    text-align: center;
+}
+}
+
+@media (min-width: $tablet) {
+    .contenedor-padre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: $espacio-medio;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img {
+    width: 100%;
+    max-width: 300px;
+    }
+}
+
+.contenedor-textos {
+    text-align: center;
+}
+}

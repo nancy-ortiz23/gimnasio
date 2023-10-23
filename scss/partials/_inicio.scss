@@ -1,0 +1,13 @@
+.banner {
+    @mixin flex-columna{
+    gap: $espacio-chico;
+}
+
+@media(min-width: $tablet) {
+    .contenedor-padre {
+        flex-direction: row;
+        justify-content: center;
+        gap: $espacio-grande;
+    }
+}
+}

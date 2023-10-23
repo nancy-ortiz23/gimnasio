@@ -1,0 +1,150 @@
+/* Paleta de colores */
+$color-primario: #63676e;
+$color-secundario: #f5f5f5;
+$color-terciario: #333;
+
+// Estilos globales
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    html {
+        font-size: 62.5%; 
+}
+
+body {
+        font-family: $Fuente-principal;
+        background-color: $color-terciario;
+        color: $color-terciario;                                                                                                                                                                                                                                                                                                                                         
+
+nav {
+    ul {
+        display: flex;
+
+    li {
+        margin-left: 2rem;
+
+    a {
+        font-size: 1.6rem;
+        color: $color-primario;
+
+    &:hover {
+        color: $color-secundario;
+            }
+        }
+    }
+    }
+}
+}
+
+    .contenedor-padre img {
+        height: 250px;
+}
+
+@media (min-width: $tablet) {
+    .contenedor-padre img {
+        height: 70vh;
+    }
+}
+
+@media (min-width: $desktop){
+    .contenedor-padre img {
+        height: 80vh;
+    }
+}
+    h1,h2,h3,h4 {
+        text-align: center;
+        margin-top: $espacio-medio;
+}
+
+    p {
+        font-size: $espacio-medio;
+}
+
+
+    .banner {
+        height: 40rem;
+        background-image: url('../img/banner.jpg');
+        background-size: cover;
+        background-position: center;
+}
+
+    h2,h3,h4 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: $color-primario;
+}
+
+    .padre-cards {
+        display: flex;
+        align-items: center;
+        margin-top: 4rem;
+
+    .card {
+        flex: 1;
+        margin-right: 2rem;
+        border: 1px solid $color-secundario;
+        border-radius: 5px;
+
+    img {
+        width: 100%;
+        }
+    }
+
+    .parrafo-white {
+        margin-top: $espacio-chico;
+    }
+}
+
+
+
+    section {
+        background-color: $color-primario;
+        padding: 4rem;
+
+    .contenedor-padre {
+        margin-bottom: 4rem;
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: $color-secundario;
+    }
+  }
+}
+
+    .contenedor {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4rem;
+
+    img {
+        width: 10rem;
+
+}
+}
+
+    footer {
+        margin-top: $espacio-grande;
+        @include flex-column
+}
+
+/*anidacion*/
+
+    .padre-redes {
+        color: $color-primario;
+        text-decoration: none;
+        font-size: $icono-chico;
+}
+
+    .btn {
+        border: solid 1px $color-secundario;
+        width: 200px;
+        text-align: center;
+        padding: 5px $espacio-chico;
+        border-radius: 10px;
+}
