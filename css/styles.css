@@ -71,7 +71,7 @@ h1, h2, h3 {
   margin: 20px 0;
 }
 h4 {
-  color: #f5f5f5;
+  color: #333;
   text-align: center;
   font-size: 1.5rem;
   margin: 20px 0;
@@ -137,8 +137,7 @@ h4 {
 
 .contenedor.reverse {
   flex-direction: row-reverse;
-  color: #f5f5f5;
-  background-color: #56a34f;
+  background-color: #48cf3c;
   margin:15px;
   padding: 50px;
   font-family:cursive;
@@ -243,52 +242,7 @@ footer {
       display: block;
   }
 }
-.actividades.css {
-  header {
-    background-color: #63676e;
-    padding: 10px; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-header a {
-    text-decoration: none; 
-    color: #f5f5f5; 
-}
-
-
-nav ul {
-    list-style: none; 
-    padding: 0; 
-    display: flex;
-    gap: 20px; 
-}
-
-
-nav ul li {
-    display: inline;
-}
-
-
-.enlaces {
-    text-decoration: none; 
-    color: #f5f5f5; 
-}
-
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-}
-}
-
-  .contacto.css {
+.actividades.css .contacto.css .nosotros.css .ubicacion.css {
   header {
     background-color: #63676e;
     padding: 10px; 
