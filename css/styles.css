@@ -333,7 +333,7 @@ nav ul li {
 
 .form-control {
   width: 100%;
-  padding: 15px; /* Reduce el padding en pantallas más pequeñas */
+  padding: 15px;
   border: none;
   border-radius: 5px;
   box-shadow: 0 10px 10px #cf3c6d;
@@ -370,6 +370,26 @@ nav ul li {
 .btn:hover {
   transform: translateY(-2px);
   background-color: #cf3c6d;
+}
+
+@media (max-width: 320px) {
+  .form {
+    max-width: 100%; 
+    margin: 15px;
+  }
+
+  .form-control {
+    padding: 10px; 
+  }
+
+  .btn {
+    font-size: 14px; 
+    margin-top: 10px;
+  }
+
+  .btn-secondary {
+    margin-left: 0; 
+  }
 }
 
 @media (min-width: 768px) {
