@@ -96,6 +96,11 @@ h4 {
   .parrafo-white {
     font-size: 18px;
     color: #f5f5f5;
+    padding: 1rem; /* Ajusta el padding en pantallas más pequeñas */
+  }
+  
+  .parrafo-white p {
+    text-align: center; /* Centra el texto en pantallas más pequeñas */
   }
 }
 
