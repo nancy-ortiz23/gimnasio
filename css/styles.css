@@ -186,12 +186,6 @@ h4 {
   max-width: 250px;
 }
 
-@media (max-width: 320px) {
-  .contenedor.reverse {
-
-  }
-}
-
 footer {
   background-color: #63676e;
   padding: 20px;
@@ -378,7 +372,7 @@ nav ul li {
   .form-control {
     padding: 30px;
   }
-  
+
 }
 
 
