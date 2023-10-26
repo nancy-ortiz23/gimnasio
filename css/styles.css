@@ -60,7 +60,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: cursive;
+  font-family: 'Montserrat', sans-serif;
   margin: 50px 0;
 }
 
@@ -82,7 +82,7 @@ h4 {
   color: #f5f5f5;
   text-align: center;
   font-size: 1rem;
-  font-family: cursive;
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   gap: 15px;
   display: flex;
@@ -147,7 +147,7 @@ h4 {
   color: #f5f5f5;
   margin: 15px;
   padding: 50px;
-  font-family: cursive;
+  font-family:'Montserrat', sans-serif;
 }
 
 .imagen-fullbody {
@@ -182,7 +182,7 @@ h4 {
 
 .contenedor-textos p {
   font-size: 18px;
-  font-family: cursive;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1,5;
   color: #f5f5f5;
 }
@@ -196,7 +196,7 @@ footer {
   padding: 20px;
   text-align: center;
   font-size: 18px;
-  font-family: cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .padre-redes {
@@ -513,7 +513,7 @@ navbar {
 
   h1, h2, h3 {
     font-size: 1.5rem;
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
