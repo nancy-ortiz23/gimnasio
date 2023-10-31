@@ -492,7 +492,7 @@ footer {
   box-shadow: 0 2px 10px #3498DB;
 }
 actividades.css {
-  color: #cf3c6d;
+  color: #f5f5f5;
 }
 navbar {
   width: 100%;
@@ -511,9 +511,9 @@ navbar {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #2e2e3b;
+  background-color: #3498DB;
   border-radius: 10px;
-  box-shadow: 0px 20px 50px #cf3c6d;
+  box-shadow: 15px 30px 40px #333;
   overflow: hidden;
 }
 
