@@ -384,10 +384,17 @@ nav ul li {
   box-shadow: 0 5px 10px #3498DB;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
 .btn {
-  padding: 10px 20px;
+  margin: 5px;
+  padding: 10px 30px;
   border: none;
-  border-radius: 50px;
+  border-radius: 30px;
   font-weight: bold;
   text-transform: uppercase;
   transition: all 0.3s ease;
@@ -403,7 +410,6 @@ nav ul li {
 .btn-secondary {
   background-color: #EAEAEA;
   color: #333;
-  margin-left: 15px;
 }
 
 .btn:hover {
