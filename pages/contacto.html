@@ -9,6 +9,27 @@
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="shortcut icon" href="../assets/img/logo.jpg">
         <title>Strong Gym</title>
+        
+        <style>
+            .titulo {
+                text-align: center;
+                font-size: 36px;
+                color: #ff7f00;
+                animation: moveTitle 2s ease-in-out infinite;
+            }
+        
+            @keyframes moveTitle {
+                0% {
+                transform: translateX(0);
+            }
+                50% {
+                transform: translateX(10px);
+            }
+                100% {
+                transform: translateX(0);
+            }
+        }
+        </style>
     </head>
 <body>
     <!--Cabecera-->
@@ -50,7 +71,7 @@
     
     <section>
     
-        <h1 class="my-4 text-center">Contacto</h1>
+        <h1 class="titulo">Contacto</h1>
         
     <form class="form">
     <div class="form-group">
