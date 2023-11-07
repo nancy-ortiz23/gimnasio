@@ -1,0 +1,12 @@
+
+Control panel username:	b4_35342218
+Control panel password:	**********
+Control panel URL:	cpanel.byethost4.com
+MySQL username	b4_35342218
+MySQL password:	**********
+MySQL hostname:	sql207.byethost4.com
+FTP username:	b4_35342218
+FTP password:	**********
+FTP host name:	ftp.byethost4.com
+Your Website URL:	http://gymstrong.byethost4.com
+ 	 
